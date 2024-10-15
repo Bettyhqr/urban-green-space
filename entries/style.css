@@ -1,0 +1,320 @@
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, auto);
+    margin: 0 auto;
+    max-width: 1512px;
+    max-height: auto;
+    overflow: hidden;
+}
+.grass-img {
+    grid-row: 1 / 8;
+    grid-column: 3 / 6;
+    width: 1000px; 
+    display: flex; 
+    padding-top: 150px;
+    padding-left: 60px;
+}
+img {
+    width: 100%;
+    height: auto; 
+}
+.heading {
+    font-family: "Indie Flower", cursive;
+    font-size: 55px;
+    grid-row: 1 / 2;
+    grid-column: 1 / 8;
+}
+body {
+    background-color: #FFF9EE;
+    text-align: center;
+    margin: 0;
+}
+.start-bottom {
+    width: 125px;
+    height: 56px;
+    background-color:#6E30FF;
+    grid-row: 7 / 8;
+    grid-column: 4 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.p1 {
+    font-family: "Cambay", sans-serif;
+    font-size: 20px;
+    grid-row: 6 / 7;
+    grid-column: 2 / 7;
+}
+.p2 {
+    font-family: "Cambay", sans-serif;
+    font-size: 20px;
+    grid-row: 7 / 8;
+    grid-column: 4 / 5;
+    color: #FFFF;
+}
+a {
+    text-decoration: none; 
+    display: block; 
+    grid-row: 7 / 8;
+    grid-column: 4 / 5;
+}
+.empty-grass-img {
+    grid-row: 1 / 8;
+    grid-column: 3 / 8;
+    width: 1000px; 
+    display: flex; 
+    padding-top: 160px;
+    padding-left: 130px;
+}
+.home-bottom {
+    font-family: "Cambay", sans-serif;
+    font-size: 24px;
+    grid-row: 1 / 2;
+    grid-column: 1 / 1;
+    padding-top: 30px;
+    margin-left: 30px;
+    color: #000000;
+}
+.reset-bottom {
+    font-family: "Cambay", sans-serif;
+    font-size: 24px;
+    grid-row: 1 / 2;
+    grid-column: 2 / 2;
+    padding-top: 30px;
+    padding-right: 60px;
+    color: #000000;
+}
+.heading2 {
+    font-family: "Indie Flower", cursive;
+    font-size: 48px;
+    grid-row: 1 / 2;
+    grid-column: 1 / 8;
+    padding-right: 100px;
+}
+.p3 {
+    font-family: "Cambay", sans-serif;
+    font-size: 16px;
+    grid-row: 4 / 8;
+    grid-column: 1 / 4;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+.p4 {
+    font-family: "Cambay", sans-serif;
+    font-size: 13px;
+    grid-row: 4 / 8;
+    grid-column: 1 / 4;
+    text-align: left;
+    padding-left: 40px;
+}
+.box {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 300px;
+    grid-row: 4 / 8;
+    grid-column: 1 / 4;
+    margin-left: 30px;
+}
+.seed-img {
+    grid-row: 4 / 8;
+    grid-column: 1 / 4;
+    width: 55px; 
+    display: flex;
+    gap: 10px; 
+}
+.seed2-img {
+    grid-row: 4 / 8;
+    grid-column: 1 / 4;
+    width: 55px; 
+    display: flex;
+    gap: 10px; 
+}
+.seed-img-1 {
+    grid-row: 4 / 8;
+    grid-column: 1 / 4;
+    width: 55px;
+    display: flex;
+    gap: 10px; 
+}
+.seed-img-2 {
+    grid-row: 4 / 8;
+    grid-column: 1 / 4;
+    width: 55px; 
+    display: flex;
+    gap: 10px; 
+}
+.seed-img-3 {
+    grid-row: 4 / 8;
+    grid-column: 1 / 4;
+    width: 55px; 
+    display: flex;
+    gap: 10px; 
+}
+.seed-img-4 {
+    grid-row: 4 / 8;
+    grid-column: 1 / 4;
+    width: 55px; 
+    display: flex;
+    gap: 10px; 
+}
+.seed-img-5 {
+    grid-row: 4 / 8;
+    grid-column: 1 / 4;
+    width: 55px; 
+    display: flex;
+    gap: 10px; 
+}
+.lavender-container {
+    position: relative;
+    grid-row: 1 / 8;
+    grid-column: 3 / 8;
+    width: 1000px; 
+    padding-top: 160px;
+    padding-left: 130px;
+}
+.lavender-empty-grass-img {
+   width: 100%;
+   height: auto;
+}
+
+.lavender-set-img {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%); 
+    width: 266px; 
+    height: auto; 
+}
+.lavender-1-img {
+    grid-row: 2 / 7;
+    grid-column: 2 / 4;
+    width: 225px;
+    display: flex;
+}
+
+.name-lavender {
+    font-family: "Cambay", sans-serif;
+    font-size: 30px;
+    grid-column: 5 / 8;
+    grid-row: 2 / 2; 
+    text-align: left;
+}
+
+.name2-lavender {
+    font-family: "Cambay", sans-serif;
+    font-size: 20px;
+    grid-column: 5 / 8;
+    grid-row: 3 / 3; 
+    text-align: left;
+}
+
+.features-lavender {
+    font-family: "Cambay", sans-serif;
+    font-size: 30px;
+    grid-column: 5 / 8;
+    grid-row: 4 / 4; 
+    text-align: left;
+}
+
+.features2-lavender {
+    font-family: "Cambay", sans-serif;
+    font-size: 20px;
+    grid-column: 5 / 8;
+    grid-row: 5 / 5;  
+    text-align: left;
+}
+
+.where-lavender {
+    font-family: "Cambay", sans-serif;
+    font-size: 30px;
+    grid-column: 5 / 8;
+    grid-row: 9 / 9; 
+    text-align: left;
+}  
+
+.where2-lavender {
+    font-family: "Cambay", sans-serif;
+    font-size: 20px;
+    grid-column: 5 / 8;
+    grid-row: 10 / 10; 
+    text-align: left;
+}
+.red-spider-lily-container {
+    position: relative;
+    grid-row: 1 / 8;
+    grid-column: 3 / 8;
+    width: 1000px; 
+    padding-top: 160px;
+    padding-left: 130px;
+}
+.red-spider-lily-empty-grass-img {
+   width: 100%;
+   height: auto;
+}
+
+.red-spider-lily-set-img {
+    position: absolute;
+    top: 40%;  
+    left: 40%; 
+    transform: translate(-40%, -30%);  
+    width: 266px; 
+    height: auto; 
+}
+.red-spider-lily-1-img {
+    grid-row: 2 / 7;
+    grid-column: 2 / 4;
+    width: 225px;
+    display: flex;
+}
+
+.name-red-spider-lily {
+    font-family: "Cambay", sans-serif;
+    font-size: 30px;
+    grid-column: 5 / 8;
+    grid-row: 2 / 2; 
+    text-align: left;
+}
+
+.name2-red-spider-lily {
+    font-family: "Cambay", sans-serif;
+    font-size: 20px;
+    grid-column: 5 / 8;
+    grid-row: 3 / 3; 
+    text-align: left;
+}
+
+.features-red-spider-lily {
+    font-family: "Cambay", sans-serif;
+    font-size: 30px;
+    grid-column: 5 / 8;
+    grid-row: 4 / 4; 
+    text-align: left;
+}
+
+.features2-red-spider-lily {
+    font-family: "Cambay", sans-serif;
+    font-size: 20px;
+    grid-column: 5 / 8;
+    grid-row: 5 / 5;  
+    text-align: left;
+}
+
+.where-red-spider-lily {
+    font-family: "Cambay", sans-serif;
+    font-size: 30px;
+    grid-column: 5 / 8;
+    grid-row: 9 / 9; 
+    text-align: left;
+}  
+
+.where2-red-spider-lily {
+    font-family: "Cambay", sans-serif;
+    font-size: 20px;
+    grid-column: 5 / 8;
+    grid-row: 10 / 10; 
+    text-align: left;
+}
