@@ -318,3 +318,84 @@ a {
     grid-row: 10 / 10; 
     text-align: left;
 }
+.bluebell-container {
+    position: relative;
+    grid-row: 1 / 8;
+    grid-column: 3 / 8;
+    width: 1000px; 
+    padding-top: 160px;
+    padding-left: 130px;
+}
+.bluebell-empty-grass-img {
+   width: 100%;
+   height: auto;
+}
+
+.bluebell-set-img {
+    position: absolute;
+    top: 40%;  
+    left: 40%; 
+    transform: translate(-40%, -30%);  
+    width: 212px; 
+    height: auto; 
+}
+.bluebell-set-img {
+    position: absolute;
+    top: 32%;  
+    left: 46%; 
+    width: 212px; 
+    height: auto;
+}
+.bluebell-1-img {
+    grid-row: 2 / 7;
+    grid-column: 2 / 4;
+    width: 344px;
+    display: flex;
+}
+.name-bluebell {
+    font-family: "Cambay", sans-serif;
+    font-size: 30px;
+    grid-column: 5 / 8;
+    grid-row: 2 / 2; 
+    text-align: left;
+}
+
+.name2-bluebell {
+    font-family: "Cambay", sans-serif;
+    font-size: 20px;
+    grid-column: 5 / 8;
+    grid-row: 3 / 3; 
+    text-align: left;
+}
+
+.features-bluebell {
+    font-family: "Cambay", sans-serif;
+    font-size: 30px;
+    grid-column: 5 / 8;
+    grid-row: 4 / 4; 
+    text-align: left;
+}
+
+.features2-bluebell {
+    font-family: "Cambay", sans-serif;
+    font-size: 20px;
+    grid-column: 5 / 8;
+    grid-row: 5 / 5;  
+    text-align: left;
+}
+
+.where-bluebell {
+    font-family: "Cambay", sans-serif;
+    font-size: 30px;
+    grid-column: 5 / 8;
+    grid-row: 9 / 9; 
+    text-align: left;
+}  
+
+.where2-bluebell {
+    font-family: "Cambay", sans-serif;
+    font-size: 20px;
+    grid-column: 5 / 8;
+    grid-row: 10 / 10; 
+    text-align: left;
+}
