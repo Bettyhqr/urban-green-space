@@ -1,0 +1,88 @@
+.top-50{
+  position: relative;
+  top: -50px;
+}
+.top-100{
+  position: relative;
+  top: -80px;
+}
+.top-150{
+  position: relative;
+  top: -100px;
+}
+.top-200{
+  position: relative;
+  top: -140px;
+}
+.top-250{
+  position: relative;
+  top: -160px;
+}
+.top-300{
+  position: relative;
+  top: -180px;
+}
+.font{
+  font-family: "Cambay", sans-serif;
+}
+.info{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding:0 40px;
+  box-sizing: border-box;
+  font-family: "Cambay", sans-serif;
+  /* border: 1px solid red; */
+}
+.item-left{
+  width: 50% !important;
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Cambay", sans-serif;
+}
+.item-right{
+  flex:1;
+  text-align:  left;
+  font-size: 20px;
+  font-family: "Cambay", sans-serif;
+}
+.lavender-1-img{
+  margin: 0 auto;
+  width: 300px;
+}
+.name-lavender{
+  margin: 20px 0;
+  font-family: "Cambay", sans-serif;
+}
+.content1{
+  min-height: 180px;
+  font-family: "Cambay", sans-serif;
+}
+.image2{
+  width: 330px;
+}
+.image3{
+  width: 400px;
+}
+.image4{
+  width: 600px;
+}.image5{
+  width: 600px;
+}
+.image6{
+  width: 650px;
+}
+.image7{
+  width: 600px;
+}
+.image8{
+  width: 700px;
+}
+.image9{
+  width: 400px;
+}
+.image10{
+  width: 460px;
+}

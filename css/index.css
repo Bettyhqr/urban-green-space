@@ -1,0 +1,160 @@
+.content{
+  min-width: 800px;
+  min-height: 300px;
+}
+._home-button {
+  font-family: "Cambay", sans-serif;
+  font-size: 24px;
+  /* padding-top: 30px;
+  margin-left: 30px; */
+  color: #000000;
+}
+.flex{
+  display: flex;
+}
+.padding30{
+  padding: 30px;
+}
+.left30{
+  padding-left: 30px;
+}
+.seeds{
+  background-color: white;
+  width: 400px;
+  /* height: 400px; */
+  padding: 20px;
+  margin-left: 20px;
+}
+.heading2{
+  position: absolute;
+  text-align: center;
+}
+.center{
+  text-align: center;
+}
+.flex1{
+  flex: 1;
+}
+.title{
+  font-family: "Indie Flower", cursive;
+  font-size: 48px;
+}
+.base{
+  width: 100%;
+}
+
+.base-area{
+  position: relative;
+  /* border: 1px solid red; */
+  margin-top: 100px;
+
+}
+.seed1{
+  /* border: 1px solid green; */
+}
+.left{
+  display: flex;
+  align-items: flex-end;
+  /* border: 1px solid red; */
+}
+.seed-img-1:hover{
+  transform: scale(1.1);
+}
+.seed-img-2:hover{
+  transform: scale(1.1);
+}
+.seed-img-3:hover{
+  transform: scale(1.1);
+}
+.seed-img-4:hover{
+  transform: scale(1.1);
+}
+.seed-img-5:hover{
+  transform: scale(1.1);
+  transition: all linear 0.5 0.5;
+}
+
+.seed1{
+  position: absolute;
+  top: 13%;
+  left: 7%;
+  width: 26%;
+  height: auto;
+}
+.seed2{
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 25%;
+  height: auto;
+
+}
+.seed3{
+  position: absolute;
+  top: 3%;
+  left: 33%;
+  width: 19%;
+  height: auto;
+
+}
+.seed4{
+  position: absolute;
+  top: -3%;
+  left: 42%;
+  width: 17%;
+  height: auto;
+
+}
+.seed5{
+  position: absolute;
+  top: -7%;
+  left: 47%;
+  width: 21%;
+  height: auto;
+
+}
+.seed6{
+  position: absolute;
+  top: 43%;
+  left: 27%;
+  width: 28%;
+  height: auto;
+}
+.seed7{
+  position: absolute;
+  top: 34%;
+  left: 37%;
+  width: 29%;
+  height: auto;
+
+
+}
+.seed8{
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  width: 24%;
+  height: auto;
+
+}
+.seed9{
+  position: absolute;
+  top: 18%;
+  left: 59%;
+  width: 27%;
+  height: auto;
+
+}
+.seed10{
+  position: absolute;
+  top: 12%;
+  left: 67%;
+  width: 28%;
+  height: auto;
+}
+.fixed{
+  position: fixed;
+  top:10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
