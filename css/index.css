@@ -5,8 +5,6 @@
 ._home-button {
   font-family: "Cambay", sans-serif;
   font-size: 24px;
-  /* padding-top: 30px;
-  margin-left: 30px; */
   color: #000000;
 }
 .flex{
@@ -21,7 +19,6 @@
 .seeds{
   background-color: white;
   width: 400px;
-  /* height: 400px; */
   padding: 20px;
   margin-left: 20px;
 }
@@ -45,14 +42,12 @@
 
 .base-area{
   position: relative;
-  /* border: 1px solid red; */
   margin-top: 100px;
 }
 
 .left{
   display: flex;
   align-items: flex-end;
-  /* border: 1px solid red; */
 }
 .seed-img-1:hover{
   transform: scale(1.1);
